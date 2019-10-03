@@ -1,0 +1,12 @@
+# compiled code
+*.h.gch
+*.o
+
+# coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# executables
+linked-list
+test-runner
