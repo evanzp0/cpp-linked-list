@@ -31,6 +31,10 @@ SCENARIO("Node constructors work", "[node]") {
             AND_THEN("its next is set") {
                 REQUIRE(n->next == next);
             }
+
+            delete next;
         }
+
+        delete n;
     }
 }
